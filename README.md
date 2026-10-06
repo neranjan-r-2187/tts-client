@@ -1,4 +1,4 @@
-# Text-to-Speech — Backend (Server)
+# Text-to-Speech — Frontend
 
 Node.js + Express backend for the Text-to-Speech web application. Converts text into speech, supports multiple languages/voices, stores generation history, and serves generated audio files.
 

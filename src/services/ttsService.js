@@ -6,7 +6,7 @@ export const convertToSpeech = (text, language, voice, accessToken) =>
   axios.post(
     `${API_BASE}/tts`,
     { text, language, voice },
-    accessToken ? { headers: { Authorization: `Bearer ${accessToken}` } } : {}
+    {}
   );
 
 export const getVoices = () => axios.get(`${API_BASE}/voices`);
